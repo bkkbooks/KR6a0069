@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR6a0069/v1
 canonical_location: https://kanripo.org/bkk/KR6a0069/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 護國經
   identifiers:
@@ -31,10 +31,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6a0069_000.yaml, hash: 'sha256:f4aa7c26b1864d194fd98d0448edf9c7d0a2230786e5c4a1e244a4c9a7ef760b'}
-  - {seq: 1, filename: KR6a0069_001.yaml, hash: 'sha256:1e4e801c58ada6fe7b4a98e09947e1da240ea4fbb5f0c9efef26b6a70042af05'}
+  - {seq: 1, filename: KR6a0069_001.yaml, hash: 'sha256:9f189b436be8c2742ae788d6243e1e58cd91ddd1f4761470ba5ccfee67f7512e'}
   markers:
   - {seq: 0, role: markers, filename: assets/KR6a0069_000.markers.yaml, hash: 'sha256:7b1ecc10f862d3e09b8308afb594b3f45f4175a599c711544f8c42643015a40d'}
-  - {seq: 1, role: markers, filename: assets/KR6a0069_001.markers.yaml, hash: 'sha256:7d411c888647811ce5eaa03df4b7b8e1e6146e18906cb4524c4f636ff8f77744'}
+  - {seq: 1, role: markers, filename: assets/KR6a0069_001.markers.yaml, hash: 'sha256:ec896d756d9f0aae62d7197825e11c5486d3126332a454910c702689b6f474b1'}
 table_of_contents:
 - ref:
     seq: 1
@@ -46,4 +46,7 @@ table_of_contents:
   label: 佛說護國經
   type: juan
   level: 1
-hash: sha256:2a80ea23e651bc4181b7ea660d445580916a5e013ce558413df1611674a2cda5
+hash: sha256:8d6c2a3729ebcf354a943587a65243d039ed97089155cffb08f75b29121d2e1f
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
